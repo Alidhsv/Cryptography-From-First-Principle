@@ -1,2 +1,0 @@
-#!/bin/bash
-python -m sage.repl.ipython_kernel.install --user
